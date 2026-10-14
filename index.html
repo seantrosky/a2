@@ -3,70 +3,189 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crisis</title>
+    <title>Your Guest House</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.7;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px;
+            max-width: 1100px;
+            margin: auto;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        .gallery img {
+            width: 280px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+        footer {
+            background: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .testimonial {
+            background: #fff;
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 5px solid #2c3e50;
+        }
+        button {
+            background: #2c3e50;
+             color: #fff;
+             padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 15px;
+        }
+        button:hover {
+            background: #1a252f;
+        }
+    </style>
 </head>
-<body style="background-color:rgba(53, 47, 14, 0.756);">
-    <h1> <u><i>Crisis lodge</i></u></h1>
-    <p style="font-family: sans-serif;">Home sweet home <br>Come and relax,spend some time with the family and enjoy to the fullest of our services <br>We have a spa located right next to each room to make you feel stretched right after a long day. <br>Make us your destination and we'd make you our priority.</p>
+<body style="background-image: url(images/18.jpg); background-size:cover;
+background-position-x: center;
+background-repeat: no-repeat;
+background-attachment: fixed;">
 
-    <h2 style="background-color: rgb(76, 14, 14);"><i><u>Functions of Crisis</u></i></h2>
-    <p>For relaxation and comfort look no further ,walk into Crisis lodge we'll offer you the best amenities we have to offer .</p>
-    <p>We offer room services <br>Conference rooms <br>Buffet grounds <br>Marriage space and so many more <br>Just walk in and you are our priority</p>
-    <img src="images\12.webp" alt="image 12">
-    <img src="images\13.webp" alt="image 13";width="320" height="250">
-    <img src="images\14.png" alt="image 14";width="320" height="250">
+    <header>
+        <h1>Welcome to Crisis Lodge</h1>
+        <p>Where comfort meets elegance in the heart of Accra</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#attractions">Nearby Attractions</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h3 style="background-color: rgb(75, 40, 40);"><u><i>Contact details</i></u></h3>
-   <p> <b>Name:Dr.Sean Trosky</b> <br>Tel:0263209119 <br>Email:seantrosky5@gmail.com</p>
-  <a href="booknow.html">
-   <button>Click here to book now</button>
-  </a>
-   <h2>Products</h2>
-  <p>We pride ourselves on offering a wide range of services to meet the needs of every guest:</p>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            Our guest house is more than just a place to stay — it’s a home away from home. 
+            Designed with a blend of modern architecture and traditional Ghanaian hospitality, 
+            we provide a serene environment for travelers, families, and professionals alike. 
+            From the moment you step through our doors, you’ll be greeted with warmth, 
+            personalized service, and attention to detail that ensures your stay is memorable.
+        </p>
+        <p>
+            Whether you’re visiting Accra for business meetings, cultural exploration, or simply 
+            to relax, our guest house offers the perfect balance of convenience and tranquility. 
+            With spacious rooms, lush gardens, and easy access to the city’s vibrant attractions, 
+            we make every guest feel valued and at ease.
+        </p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
         <ul>
-            <li><strong>Spa:</strong> Indulge in soothing massages, facials, and wellness treatments that rejuvenate your body and mind.</li>
-            <li><strong>Bar:</strong> Relax at our stylish bar with a curated selection of cocktails, wines, and local beverages.</li>
-            <li><strong>Conference Rooms:</strong> Host health seminars, corporate meetings, or workshops in our fully equipped, modern conference facilities.</li>
-            <li><strong>Guest Rooms:</strong> Choose from a variety of spacious, elegantly designed rooms tailored for both short and long stays.</li>
-            <li><strong>Dining:</strong> Enjoy gourmet meals prepared by our chefs, blending traditional flavors with international cuisine.</li>
-            <li><strong>Recreation:</strong> Take advantage of our lounge areas, fitness center, and outdoor spaces for relaxation and fun.</li>
+            <li><strong>Guest Rooms:</strong> Elegant rooms with air conditioning, Wi-Fi, and private balconies.</li>
+            <li><strong>Spa & Wellness:</strong> Relax with massages, facials, and wellness treatments.</li>
+            <li><strong>Dining:</strong> Enjoy freshly prepared meals featuring both local Ghanaian dishes and international cuisine.</li>
+            <li><strong>Bar & Lounge:</strong> A cozy space to unwind with cocktails, wines, and local drinks.</li>
+            <li><strong>Conference Facilities:</strong> Fully equipped meeting rooms for business events and seminars.</li>
+            <li><strong>Airport Shuttle:</strong> Convenient transport to and from Kotoka International Airport.</li>
         </ul>
+    </section>
 
- <h2>Gallery</h2>
-        <p>Take a glimpse into the beauty and comfort of Crisis Guest House:</p>
-        
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <p>Explore the beauty and comfort of our guest house:</p>
+        <img src="images/17.jpg" alt="default">
+        <img src="images/14.png" alt="default">
+        <img src="images/15.webp" alt="default">
+        <img src="images/wolla (3).jpg" alt="default">
+        <img src="images/wolla (4).jpg" alt="default">
+    </section>
 
-    <img src="images\16.jpg" alt="image 16";width="320" height="250">
-    <img src="images\17.jpg" alt="image 17";width="320" height="250">
-    <img src="images\15.webp" alt="image 15";width="320" height="250">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d254085.42848476252!2d-0.21715192246393178!3d5.70088520616058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0xfdf9d8ff06c3a39%3A0x295e28dd344f3f72!2sWisconsin%20International%20University%20College%2C%20Ghana!3m2!1d5.6839749!2d-0.1893425!5e0!3m2!1sen!2sgh!4v1789652104132!5m2!1sen!2sgh" width="320" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-    <br>
-    <iframe width="460" height="315" src="https://www.youtube.com/embed/41FToUydIiw?si=RqVBaIoxBkNUXzCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </p>
+    <section id="testimonials">
+        <h2>What Our Guests Say</h2>
+        <div class="testimonial">
+            <p>"The staff were incredibly welcoming, and the rooms were spotless. I felt at home instantly!"</p>
+            <small>- Ama, Ghana</small>
+        </div>
+        <div class="testimonial">
+            <p>"Perfect location, delicious food, and a peaceful atmosphere. Highly recommended for anyone visiting Accra."</p>
+            <small>- James, UK</small>
+        </div>
+        <div class="testimonial">
+            <p>"I loved the spa treatments and the garden view from my balcony. Truly relaxing!"</p>
+            <small>- Fatima, Nigeria</small>
+        </div>
+    </section>
 
+    <section id="attractions">
+        <h2>Nearby Attractions</h2>
+        <p>
+            Located in the heart of Accra, our guest house offers easy access to some of the city’s most exciting attractions:
+        </p>
+        <ul>
+            <li><strong>Kwame Nkrumah Mausoleum:</strong> A historic site celebrating Ghana’s first president.</li>
+            <li><strong>Makola Market:</strong> A bustling marketplace for shopping and cultural experiences.</li>
+            <li><strong>Labadi Beach:</strong> Perfect for relaxation, music, and seaside fun.</li>
+            <li><strong>Accra Mall:</strong> Modern shopping and entertainment center.</li>
+        </ul>
+    </section>
 
+    <section id="booking">
+        <h2>Booking Information</h2>
+        <p>
+            Ready to plan your stay? We offer flexible booking options to suit your needs. 
+            Whether you’re reserving a single night or an extended stay, our team is here to assist. 
+            Book directly through our website for exclusive discounts and complimentary breakfast.
+        </p>
+        <p>
+            For group bookings, conferences, or special events, please contact our reservations desk 
+            to customize your package. We pride ourselves on tailoring experiences to meet your expectations.
+        </p>
+        <p> <a href="booking.html"><button>Click here to book now</button></a></p>
+    </section>
 
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>
+            We’d love to hear from you! Reach out to us for bookings, inquiries, or special requests. <br>
+             Email: info@crisislodge.com <br>
+             Phone: +233-123-456-789 <br>
+             Address: Dome, Accra, Ghana
+        </p>
+    </section>
 
-
-
-
-
-
-
-    </ol>
-
-
-
-
-
-
-
-
-
-
-
-
-   </p>
 </body>
-
 </html>

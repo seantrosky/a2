@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick Booking Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 20px;
+    }
+    form {
+      background: #fff;
+      padding: 15px;
+      border-radius: 6px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+    h3 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 15px;
+    }
+    label {
+      font-size: 14px;
+      margin: 8px 0 4px;
+      display: block;
+    }
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    button {
+      background: #2c3e50;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 15px;
+    }
+    button:hover {
+      background: #1a252f;
+    }
+  </style>
+</head>
+<body style="background-image: url(images/16.jpg); background-size:cover;
+background-position-x: center;
+background-repeat: no-repeat;
+background-attachment: fixed;">
+  <form action="submit_booking.php" method="post">
+    <h3>Book Your Stay</h3>
+
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="checkin">Check-In</label>
+    <input type="date" id="checkin" name="checkin" required>
+
+    <label for="checkout">Check-Out</label>
+    <input type="date" id="checkout" name="checkout" required>
+
+    <label for="room">Room</label>
+    <select id="room" name="room" required>
+      <option value="">Select</option>
+      <option value="single">Single</option>
+      <option value="double">Double</option>
+      <option value="suite">Suite</option>
+    </select>
+
+    <button type="submit">Confirm</button>
+  </form>
+</body>
+</html>
