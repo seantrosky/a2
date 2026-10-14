@@ -49,12 +49,54 @@
     button:hover {
       background: #1a252f;
     }
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+    table th, table td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+    table th {
+      background: #2c3e50;
+      color: #fff;
+    }
   </style>
 </head>
 <body style="background-image: url(images/16.jpg); background-size:cover;
 background-position-x: center;
 background-repeat: no-repeat;
 background-attachment: fixed;">
+
+  <!-- Room Options Table -->
+  <table>
+    <tr>
+      <th>Room Type</th>
+      <th>Features</th>
+      <th>Price per Night</th>
+    </tr>
+    <tr>
+      <td>Single</td>
+      <td>1 Bed, Wi-Fi, Breakfast</td>
+      <td>$50</td>
+    </tr>
+    <tr>
+      <td>Double</td>
+      <td>2 Beds, Wi-Fi, Breakfast</td>
+      <td>$80</td>
+    </tr>
+    <tr>
+      <td>Suite</td>
+      <td>King Bed, Balcony, Spa Access</td>
+      <td>$120</td>
+    </tr>
+  </table>
+
+  <!-- Booking Form -->
   <form action="submit_booking.php" method="post">
     <h3>Book Your Stay</h3>
 
